@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>Autozone!</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./assets/css/bootstrap.css" />
+	<link rel="stylesheet" href="./assets/css/font-awesome.css" />
+	<link rel="stylesheet" href="assets/css/animate.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body>
+	<!-- navigation -->
+	<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Welcome to the Autozone!</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link scroll-link" href="index.html">Homepage</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scroll-link" href="#featured">Featured Cars</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="all.html">Car Listings</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scroll-link" href="#about-us">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scroll-link" data-toggle="modal" data-target="#myModal" href="#">Sign-in</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scroll-link" data-toggle="modal" data-target="#myModal2"
+							href="#">Register</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- login  -->
+	<div class="container pb-modalreglog-container">
+		<div class="row">
+			<div class="col-xs-12 col-md-4 col-md-offset-4">
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title" id="myModalLabel">Login</h4>
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="form-group">
+										<label for="email">Email address</label>
+										<div class="input-group pb-modalreglog-input-group">
+											<input type="email" class="form-control" id="email" placeholder="Email">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="password">Password</label>
+										<div class="input-group pb-modalreglog-input-group">
+											<input type="password" class="form-control" id="pws" placeholder="Password">
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" id="login" class="btn btn-primary">Log in</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- login end -->
+
+				<!-- registration form -->
+				<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-sm" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title" id="myModalLabel">Registration form</h4>
+							</div>
+							<div class="modal-body">
+								<form class="pb-modalreglog-form-reg">
+									<div class="form-group">
+										<div id="pb-modalreglog-progressbar"></div>
+									</div>
+									<div class="form-group">
+										<label for="email">Phone Number</label>
+										<div class="input-group pb-modalreglog-input-group">
+											<input type="text" class="form-control" id="inputPhone"
+												placeholder="Phone N0">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="email">Email address</label>
+										<div class="input-group pb-modalreglog-input-group">
+											<input type="email" class="form-control" id="inputEmail"
+												placeholder="Email">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="password">Password</label>
+										<div class="input-group pb-modalreglog-input-group">
+											<input type="password" class="form-control" id="inputPws"
+												placeholder="Password">
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" id="signup" class="btn btn-primary">Sign up</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- reg ends -->
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- hmepage -->
+	<div class="top-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 text">
+					<h1 class="wow fadeInLeftBig">Autozone</h1>
+					<div class="description wow fadeInLeftBig">
+						<h1 class="">
+							Auto Zone: Your Premuim Car listing service!
+						</h1>
+						<p>
+							The New Best way of getting your next next ride! Find your ideal
+							car, snag it off it at great prices or list your car when you
+							don’t need it.
+						</p>
+					</div>
+					<!-- search button -->
+					<div class="top-big-link wow fadeInUp">
+						<section class="search-sec">
+							<div class="container">
+								<form action="#" method="post" novalidate="novalidate">
+									<div class="row">
+										<div class="col-lg-12">
+											<div class="row">
+												<div class="col-lg-2 col-md-3 col-sm-12 p-0">
+													<select id="smake" class="form-control search-slt">
+														<option>Vehicle Make</option>
+														<option>Toyota</option>
+														<option>Mercedis</option>
+														<option>BMW</option>
+														<option>Pauguot</option>
+														<option>Meseratti</option>
+														<option>Ford</option>
+													</select>
+												</div>
+												<div class="col-lg-2 col-md-3 col-sm-12 p-0">
+													
+														<select id="stype" class="form-control search-slt">
+								<option>Car Type</option>
+								<option>Bus</option>
+								<option>Saloon</option>
+								<option>SUV</option>
+								<option>Trailer</option>
+								<option>Minis</option>
+								<option>Coups</option>
+								<option>Other</option>
+							</select>
+												</div>
+												<div class="col-lg-4 col-md-3 col-sm-12 p-0">
+													<input type="text" class="form-control search-slt"
+														placeholder="Year.." />
+												</div>
+
+												<div class="col-lg-3 col-md-3 col-sm-12 p-0">
+													<button id="search" href="#search" type="button" class="scroll-link searchbtn ">
+														Search
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- search box -->
+<div id="searchresult" class="search-container section-container ">
+					<div class="col portfolio section-description wow fadeIn">
+						<h2>Search Result</h2>
+						<div class="divider-1 wow fadeInUp"><span></span></div>
+					<p>Here are the cars you are searching for!</p>
+				</div>
+				<div id="sresult" class="row"></div>
+</div>
+
+
+
+	<!-- featured -->
+	<div class="featured-container section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col portfolio section-description wow fadeIn">
+					<h2>Featured</h2>
+					<div class="divider-1 wow fadeInUp"><span></span></div>
+					<p>We've over 3,000 cars waiting for you. Check them out!</p>
+				</div>
+			</div>
+
+			<div id="featured" class="row">
+				
+			<div class="row">
+				<div class="col section-bottom-button wow fadeInDown">
+					<a class="btn btn-primary btn-link-3" href="#">Load more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- About us -->
+	<div class="about-us-container section-container section-container-gray-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-7 about-us-box wow fadeInLeft">
+					<div class="about-us-box-text">
+						<h3>About Us</h3>
+						<p class="medium-paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim
+							veniam, quis nostrud.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim
+							veniam, quis nostrud. Exerci tation ullamcorper suscipit
+							<a href="#">lobortis nisl</a> ut aliquip ex ea commodo
+							consequat. Ut wisi enim ad minim veniam, quis nostrud exerci
+							tation ullamcorper suscipit lobortis nisl.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim
+							veniam, quis nostrud.
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-lg-5 about-us-box wow fadeInUp">
+					<div class="about-us-box-img">
+						<img src="assets/img/about/1.jpg" alt="about" data-at2x="assets/img/about/1.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 footer-left">
+					<p>&copy; A car listing platform <a href="#"></a>.</p>
+				</div>
+
+				<div class="col-md-6 offset-md-1 footer-right">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-dribbble"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col footer-bottom">
+					<a class="scroll-link" href="#top-content"><i class="fas fa-chevron-up"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/jquery.backstretch.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

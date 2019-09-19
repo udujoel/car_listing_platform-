@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Autozone!</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<!-- navigation -->
+	<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Welcome to the Autozone!</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Homepage</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Featured Cars</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="all.html">Cars Listing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="logout" data-toggle="modal" data-target="#myModal" href="#">Sign-Out</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" data-toggle="modal" data-target="#myModal2" href="#">Register</a>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<!-- all cars listing -->
+	<div class="featured-container section-container">
+		<div class="container">
+			<div class="row">
+				<div class="col portfolio section-description">
+					<h3></h3>
+					<div class="divider-1 wow fadeInUp"><span></span></div>
+					<p></p>
+				</div>
+			</div>
+
+			<!-- create data -->
+			<div class="col-md-6 col-sm-12 col-lg-12 ">
+
+				<div id="detail" class="card mb-3">
+					<img id="detailimg" src="" class="card-img-top" alt="...">
+					<label id="edit_img_lb" class="custom-file-label" for="customFile">Edit Vehicle Picture</label>
+					<input id="edit_img" type="file" class="custom-file-input" >
+					<div id="" class="card-body">
+						<h5 id="detailtitle" class="card-title">Card title</h5>
+						<p><select id="edit_make" class="custom-select">
+							<option>Vehicle Make</option>
+							<option>Toyota</option>
+							<option>Mercedis</option>
+							<option>BMW</option>
+							<option>Pauguot</option>
+							<option>Meseratti</option>
+							<option>Ford</option>
+						</select>
+						
+					</p>
+					<p><input id="edit_model" type="text" class="form-control" placeholder="Model"></p>
+					<!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+
+						<p id="detailprice" class="card-text"><small class="text-muted ">N22,000,000</small>
+						<p><input type="text" id="edit_price" class="card-text text-left" placeholder="Price*"></p>
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="desc-tab" data-toggle="tab" href="#desc" role="tab"
+									aria-controls="home" aria-selected="true">Description</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="specs-tab" data-toggle="tab" href="#specs" role="tab"
+									aria-controls="profile" aria-selected="false">Specification</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="other-tab" data-toggle="tab" href="#other" role="tab"
+									aria-controls="contact" aria-selected="false">Other</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade show active text-left" id="desc" role="tabpanel" aria-labelledby="desc-tab"><strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ex corporis asperiores quibusdam quidem, provident voluptatum inventore, atque saepe et officia veritatis eos! Magni nemo ut consectetur exercitationem natus explicabo.</strong>
+							<textarea id="edit_desc" placeholder="write your car description..." class="form-control" id="" rows="3"></textarea> 
+							</div>
+							<div class="tab-pane fade text-left" id="specs" role="tabpanel" aria-labelledby="specs-tab">
+								<p id="1">text  </p> 
+								<p><input type="text" id="edit_milage" class="form-control" placeholder="Milage"></p>
+								<p id="2" >text  </p>
+						<p><select id="edit_transmission" class="custom-select">
+								<option>Transmission</option>
+								<option>Automatic</option>
+								<option>Manual</option>
+								<option>Other</option>
+							</select>
+						</p>
+
+								<p id="3" class="">text  </p><p><select id="edit_type" class="custom-select">
+								<option>Body Type</option>
+								<option>Bus</option>
+								<option>Saloon</option>
+								<option>SUV</option>
+								<option>Trailer</option>
+								<option>Minis</option>
+								<option>Coups</option>
+								<option>Other</option>
+							</select>
+						</p>
+						<select id="edit_condition" class="custom-select">
+						<option>Condition</option>
+						<option>Brand New</option>
+						<option>Locally Used</option>
+						<option>Foreign Used</option>
+					</select>
+							</div>
+							<div class="tab-pane fade text-left" id="other" role="tabpanel" aria-labelledby="other-tab"> text
+							
+								
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<a href="#" id="edit" class="btn btn-outline-info btn-lg">Edit</a>
+				<a href="#" id="delete" class="btn btn-danger btn-lg">Delete</a>
+
+			</div>
+
+
+
+		</div>
+
+
+		<!-- Footer -->
+		<!-- <footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 footer-left">
+						<p>&copy; A car listing platform designed by <a href="#">Joell</a>.</p>
+					</div>
+				</div>
+
+			</div>
+	</div>
+	</footer> -->
+
+
+		<!-- Javascript -->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+		<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+		<script src="./assets/js/bootstrap.js"></script>
+		<script src="assets/js/jquery.backstretch.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/scripts.js"></script>
+		<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

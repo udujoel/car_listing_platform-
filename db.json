@@ -1,0 +1,166 @@
+{
+  "register": [
+    {
+      "id": 1,
+      "email": "johndoe@email.com",
+      "phone": "01234567890",
+      "password": "password"
+    },
+    {
+      "phone": "7033998184",
+      "email": "udujoel@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "phone": "1234567890",
+      "email": "myself@anywhere.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "phone": "2345678",
+      "email": "23@dsfgd.wfdv",
+      "password": "erwfgf",
+      "id": 4
+    },
+    {
+      "phone": "12346576",
+      "email": "frevd@fghb.rtef",
+      "password": "ewrtyrh",
+      "id": 5
+    }
+  ],
+  "featured": [
+    {
+      "id": 1,
+      "image": "1.jpg",
+      "name": "Benz 2009",
+      "date": "March 2019",
+      "price": "N7,232,999.00"
+    },
+    {
+      "id": 2,
+      "image": "2.jpg",
+      "name": "Benz C-class Exec",
+      "date": "April 2019",
+      "price": "N9,00,222.00"
+    },
+    {
+      "id": 3,
+      "image": "3.jpg",
+      "name": "Moto g Razor",
+      "date": "Sept 2019",
+      "price": "N11,999,000.00"
+    }
+  ],
+  "allcars": [
+    {
+      "id": 1,
+      "image": "1.jpg",
+      "name": "Benz 2009",
+      "date": "March 2019",
+      "price": "N7,232,999.00",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 2,
+      "image": "2.jpg",
+      "name": "Benz C-class Exec",
+      "date": "April 2019",
+      "price": "N9,00,222.00",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 3,
+      "image": "3.jpg",
+      "name": "Moto g Razor",
+      "date": "Sept 2019",
+      "price": "N11,999,000.00",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et."
+    },
+    {
+      "id": 4,
+      "image": "4.jpg",
+      "name": "Moto g Razor",
+      "date": "Sept 2019",
+      "price": "N11,999,000.00",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et."
+    }
+  ],
+  "listcar": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "camry 2.2",
+      "milage": "25184",
+      "transmission": "automatic",
+      "condition": "brand new",
+      "type": "saloon",
+      "description": "The Fullest option 2015 Toyota Camry Leather seat Thumb start and keyless entry Back Ac Vent. Blue on cream leather interior Very good condition and low mileage.",
+      "image": "1.jpg",
+      "price": "N11,999,000.00"
+    },
+    {
+      "make": "Meseratti",
+      "model": "Storm 6",
+      "milage": "32456",
+      "transmission": "Automatic",
+      "condition": "Brand New",
+      "type": "SUV",
+      "description": "Technologically advanced and luxuriously appointed, the 2016 Jaguar XJ is the pinnacle of the Jaguar sport sedans",
+      "image": "6.jpg",
+      "price": "N1,999,000.00",
+      "id": 2,
+      "deleted": "true"
+    },
+    {
+      "make": "Mercedis",
+      "model": "Lambo c avantdor",
+      "milage": "11",
+      "transmission": "Manual",
+      "condition": "Brand New",
+      "type": "SUV",
+      "description": " the sport-infused XJ, redesigned with high-performance in mind",
+      "image": "9.jpg",
+      "price": "N17,000,000",
+      "id": 3
+    },
+    {
+      "make": "Ford",
+      "model": "211",
+      "milage": "5432",
+      "transmission": "Automatic",
+      "condition": "Locally Used",
+      "type": "SUV",
+      "description": "the XJL where quilted seats and an available rear seat entertainment system prove decadence can be extremely tasteful.",
+      "image": "4.jpg",
+      "price": "23,45642",
+      "id": 4
+    },
+    {
+      "make": "Mercedis",
+      "model": "t9 20",
+      "milage": "45",
+      "transmission": "Automatic",
+      "condition": "Locally Used",
+      "type": "SUV",
+      "description": "the XJL where quilted seats and an available rear seat entertainment system prove decadence can be extremely tasteful.",
+      "image": "7.jpg",
+      "price": "45,000,982",
+      "id": 5
+    },
+    {
+      "make": "Meseratti",
+      "model": "xf2",
+      "milage": "22334",
+      "transmission": "Automatic",
+      "condition": "Locally Used",
+      "type": "Trailer",
+      "description": "Technologically advanced and luxuriously appointed, the 2016 Jaguar XJ ",
+      "image": "3.jpg",
+      "price": "23,45642",
+      "id": 6
+    }
+  ]
+}
