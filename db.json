@@ -173,6 +173,18 @@
       "image": "11.jpg",
       "price": "23,456,42",
       "id": 7
+    },
+    {
+      "make": "Pauguot",
+      "model": "Mode 5",
+      "milage": "45",
+      "transmission": "Manual",
+      "condition": "Locally Used",
+      "type": "Saloon",
+      "description": "Lrfgvbfvb gbuink",
+      "image": "12.jpg",
+      "price": "45,000,982",
+      "id": 8
     }
   ]
 }
