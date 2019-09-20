@@ -116,26 +116,26 @@
     },
     {
       "make": "Mercedis",
-      "model": "Lambo c avantdor",
-      "milage": "11",
+      "model": "Xazi",
+      "milage": "2345",
       "transmission": "Manual",
       "condition": "Brand New",
-      "type": "SUV",
+      "type": "Minis",
       "description": " the sport-infused XJ, redesigned with high-performance in mind",
-      "image": "9.jpg",
-      "price": "N17,000,000",
+      "image": "11.jpg",
+      "price": "N7,000,000",
       "id": 3
     },
     {
-      "make": "Ford",
-      "model": "211",
-      "milage": "5432",
-      "transmission": "Automatic",
+      "make": "Mercedis",
+      "model": "aersgfbfgc",
+      "milage": "3456789",
+      "transmission": "Manual",
       "condition": "Locally Used",
-      "type": "SUV",
-      "description": "the XJL where quilted seats and an available rear seat entertainment system prove decadence can be extremely tasteful.",
-      "image": "4.jpg",
-      "price": "23,45642",
+      "type": "Trailer",
+      "description": "the XJL where quilted seatrtainment system prove decadence can be extremely tasteful.",
+      "image": "7.jpg",
+      "price": "N23,000,000",
       "id": 4
     },
     {
@@ -161,6 +161,18 @@
       "image": "3.jpg",
       "price": "23,45642",
       "id": 6
+    },
+    {
+      "make": "Toyota",
+      "model": "BMW 19",
+      "milage": "32456",
+      "transmission": "Other",
+      "condition": "Brand New",
+      "type": "Saloon",
+      "description": "esrgthjkgn fdyujghg ftgfh",
+      "image": "11.jpg",
+      "price": "23,456,42",
+      "id": 7
     }
   ]
 }
