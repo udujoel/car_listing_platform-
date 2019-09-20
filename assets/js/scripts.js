@@ -29,7 +29,11 @@ jQuery(document).ready(function() {
 	/*
         Background slideshow
     */
-	$('.top-content').backstretch('assets/img/backgrounds/1.jpg');
+
+	$('#index').backstretch('assets/img/backgrounds/3.jpg');
+	$(' #all').backstretch('assets/img/backgrounds/1.jpg');
+	$(' #profile').backstretch('assets/img/backgrounds/2.jpg');
+	// $(' #detail').backstretch('assets/img/backgrounds/4.jpg');
 
 	$('#top-navbar-1').on('shown.bs.collapse', function() {
 		$('.top-content').backstretch('resize');

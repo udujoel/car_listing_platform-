@@ -12,6 +12,23 @@ $(document).ready(function() {
 	$('#edit_condition').hide();
 	$('#searchresult').hide();
 
+	//preview image
+	function readURL(input) {
+		if (input.files && input.files[0]) {
+			var reader = new FileReader();
+
+			reader.onload = function(e) {
+				$('#preview').attr('src', e.target.result);
+			};
+
+			reader.readAsDataURL(input.files[0]);
+		}
+	}
+	//call preview fxn
+	$('#vimg').change(function() {
+		readURL(this);
+	});
+
 	//search
 	$('#search').on('click', function(e) {
 		e.preventDefault();
@@ -60,7 +77,9 @@ $(document).ready(function() {
 					// console.log(car);
 					return `<div class="col-md-4 portfolio-box wow fadeInDown">
 					<div class="portfolio-box-image">
-						<img src="assets/img/featured/${car.image}" />
+						<a href="detail.html?id=${car.id}"><img src="assets/img/featured/${
+						car.image
+					}" /></a>
 					</div>
 					<h3>
 						<a href="detail.html?id=${car.id}"> ${
@@ -107,7 +126,9 @@ $(document).ready(function() {
 					// console.log(car);
 					return `<div class="col-md-4 portfolio-box wow fadeInUp">
 	                	<div class="portfolio-box-image">
-	                		<img src="assets/img/all/${car.image}" >
+	                		<a href="./detail.html?id=${car.id}"><img src="assets/img/all/${
+						car.image
+					}" ></a>
 	                	</div>
                 		<h3><a href="./detail.html?id=${car.id}">${car.make +
 						' ' +

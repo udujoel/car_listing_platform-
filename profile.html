@@ -33,7 +33,7 @@
 						<a class="nav-link" href="all.html">Cars Listing</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./index.html">About us</a>
+						<a class="nav-link" href="/index.html#about-us">About us</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id="logout" data-toggle="modal" data-target="#myModal" href="#">Sign-Out</a>
@@ -47,7 +47,9 @@
 	</nav>
 
 
-
+	<div class="top-content" id="profile">
+		<div class="text"></div>
+	</div>
 
 	<!-- all cars listing -->
 	<div class="featured-container section-container">
@@ -56,12 +58,14 @@
 				<div id="user" class="col portfolio section-description wow fadeIn">
 					<h3>Welcome User</h3>
 					<div class="divider-1 wow fadeInUp"><span></span></div>
+					
 					<p>Create a Car Listing below:</p>
 				</div>
 			</div>
-
+<label></label>
+					<label></label>
 <!-- create data -->
-			<div class="col-md-6 col-sm-12 col-lg-10 ">
+			<div class="d-flex justify-content-around">
 
 
 				<form>
@@ -129,9 +133,18 @@
 						<div class="col">
 							<label for=""></label>
 							<div class="custom-file">
-								<input id="vimg" type="file" class="custom-file-input" id="customFile">
+								<input id="vimg" type="file" class="custom-file-input" >
+								<!-- <img id="preview" src="#" alt="your image" /> -->
 								<label class="custom-file-label" for="customFile">Upload Vehicle Picture</label>
 							</div>
+							<div class="card" style="width: 100%;">
+  <img id="preview" src="#" alt="..select image" class="card-img-top"  />
+  <div class="card-body">
+    <!-- <h5 class="card-title">Card title</h5> -->
+    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+  </div>
+</div>
 						</div>
 					</div>
 					<div class="row">
@@ -140,7 +153,9 @@
 							<input type="text" id="vprice" class="form-control form-control-lg" placeholder="Price*">
 						</div>
 					</div>
-					<button class="btn btn-primary btn-lg btn-block "id="listcar" type="submit">List Vehicle</button>
+					<label></label>
+					
+					<button class="btn btn-primary btn-lg "id="listcar" type="submit">Create Car Listing</button>
 				</form>
 
 			</div>

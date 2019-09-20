@@ -91,15 +91,15 @@
   "listcar": [
     {
       "id": 1,
-      "make": "Toyota",
-      "model": "camry 2.2",
-      "milage": "25184",
-      "transmission": "automatic",
-      "condition": "brand new",
-      "type": "saloon",
-      "description": "The Fullest option 2015 Toyota Camry Leather seat Thumb start and keyless entry Back Ac Vent. Blue on cream leather interior Very good condition and low mileage.",
+      "make": "Ford",
+      "model": "2016 Ferrari 488 GTB",
+      "milage": "4,228 miles",
+      "transmission": "Automatic",
+      "condition": "Foreign Used",
+      "type": "Saloon",
+      "description": " This spectacular 2016 GTB is now available at Ferrari of New England. This car is a one-owner, local car that was sold new here and always serviced by us. With only 4228 miles and an incredible",
       "image": "1.jpg",
-      "price": "N11,999,000.00"
+      "price": "$229,900"
     },
     {
       "make": "Meseratti",
