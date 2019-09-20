@@ -115,15 +115,15 @@
       "deleted": "true"
     },
     {
-      "make": "Mercedis",
-      "model": "Xazi",
-      "milage": "2345",
+      "make": "Meseratti",
+      "model": "Thunderbird",
+      "milage": "345",
       "transmission": "Manual",
       "condition": "Brand New",
-      "type": "Minis",
+      "type": "SUV",
       "description": " the sport-infused XJ, redesigned with high-performance in mind",
-      "image": "11.jpg",
-      "price": "N7,000,000",
+      "image": "14.jpg",
+      "price": "N12,980,342",
       "id": 3
     },
     {

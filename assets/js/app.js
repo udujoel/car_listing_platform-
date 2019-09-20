@@ -11,6 +11,7 @@ $(document).ready(function() {
 	$('#edit_type').hide();
 	$('#edit_condition').hide();
 	$('#searchresult').hide();
+	$('#edit_preview').hide();
 
 	//preview image
 	function readURL(input) {
@@ -24,8 +25,13 @@ $(document).ready(function() {
 			reader.readAsDataURL(input.files[0]);
 		}
 	}
-	//call preview fxn
+	//call preview fxn for profile page
 	$('#vimg').change(function() {
+		readURL(this);
+	});
+
+	//for edit page
+	$('#edit_img').change(function() {
 		readURL(this);
 	});
 
@@ -52,8 +58,8 @@ $(document).ready(function() {
 	                	</div>
                 		<h3><a href="./detail.html?id=${car.id}">${car.make +
 							' ' +
-							car.model}</a> <i class="fas fa-angle-right"></i></h3>
-                		<div class="portfolio-box-date"><i class="far fa-calendar"></i>  ${
+							car.model}</a> <i class=""></i></h3>
+                		<div class="portfolio-box-date"><i class=""></i>  ${
 											car.price
 										}</div>
                 		<p>${car.description}</p>
@@ -82,12 +88,10 @@ $(document).ready(function() {
 					}" /></a>
 					</div>
 					<h3>
-						<a href="detail.html?id=${car.id}"> ${
-						car.name
-					} </a> <i class="fas fa-angle-right"></i>
+						<a href="detail.html?id=${car.id}"> ${car.name} </a> <i class=""></i>
 					</h3>
 					<div class="portfolio-box-date">
-						<i class="far fa-calendar"></i> ${car.date}
+						<i class=""></i> ${car.date}
 					</div>
 					<p>
 						${car.price}
@@ -132,7 +136,7 @@ $(document).ready(function() {
 	                	</div>
                 		<h3><a href="./detail.html?id=${car.id}">${car.make +
 						' ' +
-						car.model}</a> <i class="fas fa-angle-right"></i></h3>
+						car.model}</a> <i class=""></i></h3>
                 		<div class="portfolio-box-date"><i class="far fa-calendar"></i>  ${
 											car.price
 										}</div>
@@ -320,10 +324,12 @@ $(document).ready(function() {
 		}
 	});
 
-	//update listing
+	//update / edit listing
 	$('#edit').on('click', function(e) {
 		e.preventDefault();
 		$('#edit').text('Update Listing');
+		$('#detailmode').text('Edit listing');
+		$('#detailtext').text('Modify this listing to update the record:');
 
 		//hide current record
 		$('#detailtitle').hide();
@@ -377,11 +383,12 @@ $(document).ready(function() {
 		$('#edit_transmission').show();
 		$('#edit_type').show();
 		$('#edit_condition').show();
+		$('#edit_preview').show();
 
 		$('#edit').click(function() {
 			//update the record
 			if ($('#edit').text() === 'Update Listing') {
-				console.log('can change!');
+				// console.log('can change!');
 
 				e.preventDefault();
 				let make = $('#edit_make').val();
@@ -413,6 +420,8 @@ $(document).ready(function() {
 				}).done(function() {
 					//window.location.href = `/detail.html?id=${id}`;
 					$('#edit').text('Edit');
+					$('#detailmode').text('Listing Details');
+					$('#detailtext').text('Here are the details:');
 					// alert('Successfully Updated');
 				});
 

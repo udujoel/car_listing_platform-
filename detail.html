@@ -27,13 +27,13 @@
 						<a class="nav-link" href="index.html">Homepage</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./index.html/#featured">Featured Cars</a>
+						<a class="nav-link" href="./index.html">Featured Cars</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="all.html">Cars Listing</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/index.html#about-us">About us</a>
+						<a class="nav-link" href="/index.html">About us</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id="logout" data-toggle="modal" data-target="#myModal" href="#">Sign-Out</a>
@@ -47,28 +47,36 @@
 	</nav>
 
 
-	<div class="top-content" id="detail">
+	<div class="" id="detail">
 		<div class="text"></div>
 	</div>
 
 	<!-- all cars listing -->
 	<div class="featured-container section-container">
 		<div class="container">
-			<div class="row">
-				<div class="col portfolio section-description">
-					<h3></h3>
+		<div class="row">
+				<div class="col portfolio section-description wow fadeIn">
+					<h2 id="detailmode">Listing Details</h2>
 					<div class="divider-1 wow fadeInUp"><span></span></div>
-					<p></p>
+					<p id="detailtext">Here are the details:</p>
 				</div>
 			</div>
 
 			<!-- create data -->
-			<div class="col-md-6 col-sm-12 col-lg-12 ">
+			<div class="col-md-6 col-sm-12 col-lg-8 section-container ">
 
 				<div id="detail" class="card mb-3">
 					<img id="detailimg" src="" class="card-img-top" alt="...">
-					<label id="edit_img_lb" class="custom-file-label" for="customFile">Edit Vehicle Picture</label>
+					<label id="edit_img_lb" class="custom-file-label" for="customFile">
+						
+					</label>
+					
 					<input id="edit_img" type="file" class="custom-file-input" >
+					<div id='edit_preview' class="card" style="width: 100%;">
+  							<img id="preview" src="#" alt="..select image" class="card-img-top"  />
+  							<div class="card-body">
+  							</div>
+						</div>
 					<div id="" class="card-body">
 						<h5 id="detailtitle" class="card-title">Card title</h5>
 						<p><select id="edit_make" class="custom-select">
