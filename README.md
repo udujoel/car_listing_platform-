@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/501a2b90-59c6-4d52-9260-3d6f780c6afe/deploy-status)](https://app.netlify.com/sites/carlisting/deploys)
+
 A Car Listing Platform developed during Decagon 2019 Bootcamp.
 #a car listing platform
 
